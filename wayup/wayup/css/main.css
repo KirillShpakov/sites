@@ -1,0 +1,229 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    width: 1171px;
+    margin: 0 auto;
+}
+
+.header {
+       background: rgb(55,143,217);
+    background: -moz-linear-gradient(90deg, rgba(55,143,217,1) 0%, rgba(78,190,254,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(55,143,217,1) 0%, rgba(78,190,254,1) 100%);
+    background: linear-gradient(90deg, rgba(55,143,217,1) 0%, rgba(78,190,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#378fd9",endColorstr="#4ebefe",GradientType=1);
+    padding-top: 62px;
+    color: #fff;
+}
+
+.offer {
+    margin-left: ;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.offer {
+    width: 520px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    margin-bottom: 45px;
+    width: 445px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffd429;
+    color: black;
+    padding: 21px 21px;
+    display: block;
+    width: 221px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.desktop{
+    margin-top: 64px;
+    max-width: 100%;
+    display: block;
+}
+
+.btn:hover {
+    background-color: #957c19;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.section {
+    padding-top: 109px;
+    padding-bottom: 117px;
+}
+
+.travels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.travel {
+    width: 290px;
+    background: url(../img/time.png) no-repeat top;
+    padding-top: 92 ;
+}
+
+.travel-title {
+    font-size: 19px;
+    margin: 100px 50px 0 50px;
+    text-align: center;
+}
+
+.travel-txt {
+    font-size: 15px;
+    text-align: center;
+}
+
+.bright-travel {
+    background: url(../img/beach.png) no-repeat top;
+
+}
+
+.racket {
+    background: url(../img/launch.png) no-repeat top;
+}
+
+.mail {
+    background: #ecf3f8;
+}
+
+. form-title {
+    width: 510px;
+}
+
+.form {
+    margin-top: 63px;
+}
+
+.input {
+    border: 1px solid #bbbbbb;
+    width: 373px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    height: 48px;
+    padding-left: 25px;
+    display: block;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-form {
+    border: 0;
+    margin: 0 auto;
+    width: 373px;
+}
+
+.credits {
+    font-size: 14px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #164d7a;
+    padding: 33px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        display: block;
+    }
+    .offer {
+        width: 100%;
+    }
+    .intro {
+        width: auto;
+    }
+    .desktop {
+        display: block;
+        width: 549px;
+        margin: 72px auto 0;
+    }
+    .travels {
+        flex-direction: column;
+    }
+    .travel {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .desktop {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+    .btn {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+
