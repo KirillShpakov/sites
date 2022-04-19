@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('.banner__slider').slick({
+        dots:true,
+    });
+    $('.catalog__slider').slick({
+        slidesToShow:5,
+    })
+    $('.exclusive__list').slick({
+        slidesToShow:6,
+    })
+});
