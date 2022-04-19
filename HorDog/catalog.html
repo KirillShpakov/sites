@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/catalog1.css">
+    <link rel="stylesheet" href="css/slider__style.css">
+    <title>HorDog</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <a href="#" class="link-logo">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <a href="#" class="link-logo__min">
+                        <img src="images/logo-min.svg" alt="" class="logo-min">
+                    </a>
+                    <div class="header-input">
+                        <form action="/search/" class="header__search">
+                            <input type="text" name="" id="" placeholder="Поиск">
+                            <a href="#" class="input-btn">
+                                <img src="images/search.svg" alt="" class="search">
+                            </a>
+                        </form>
+                    </div>
+                    <div class="header__top-nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    <img src="images/favorites__header.svg" alt="" class="nav__icons">
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    <img src="images/busket.svg" alt="" class="nav__icons">
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    <img src="images/profile.svg" alt="" class="nav__icons">
+                                </a>
+                            </li>
+                        </ul>
+                        <div>
+                            <button class="header__burger">
+                                <span></span>
+                            </button>
+                            <div class="mobile__menu">
+                                <div class="container">
+                                    <a href="#" class="enter">Войти</a>
+                                    <div class="mobile__main">
+                                        <ul class="mobile-list">
+                                            <li class="mobile__top-item">
+                                                <a href="#" class="list-link catalog-bg">
+                                                    <p>Каталог</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile__top-item">
+                                                <a href="#" class="list-link favorite-bg">
+                                                    <p>Избранное</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile__top-item">
+                                                <a href="#" class="list-link action-bg">
+                                                    <p>Акции</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile__top-item">
+                                                <a href="#" class="list-link news-bg">
+                                                    <p>Новости</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile__top-item">
+                                                <a href="#" class="list-link reviews-bg">
+                                                    <p>Отзывы</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="mobile-list">
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link profile-bg">
+                                                    <p>Профиль</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link delivers-bg">
+                                                    <p>Мои заказы</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link date-bg">
+                                                    <p>Мои данные</p>
+                                                    <div class="mobile__arrow"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="mobile-list">
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link-bottom">
+                                                    <p>Профиль</p>
+                                                </a>
+                                            </li>
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link-bottom">
+                                                    <p>Мои заказы</p>
+                                                </a>
+                                            </li>
+                                            <li class="mobile-list-item">
+                                                <a href="#" class="list-link-bottom">
+                                                    <p>Мои данные</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="support">
+                                            <div class="support__container">
+                                                <h2 class="support__title">Остались вопросы?</h2>
+                                                <p>Обратитесь в нашу службу поддержки</p>
+                                                <button class="support__btn">Перейти</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section__banner">
+        <div class="container">
+            <h2 class="title">
+                <a href="index.html">
+                    <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.28941 9.08317C4.59565 9.08317 4.83332 8.84379 4.83332 8.53995C4.83332 8.38804 4.7739 8.24993 4.66878 8.14405L1.4693 4.99523L4.66878 1.85562C4.7739 1.74974 4.83332 1.60703 4.83332 1.45972C4.83332 1.15589 4.59565 0.916504 4.28941 0.916504C4.14315 0.916504 4.01517 0.971746 3.91462 1.07302L0.358625 4.57171C0.230646 4.6914 0.166656 4.83871 0.166656 4.99984C0.166656 5.16096 0.230646 5.29907 0.354054 5.42336L3.91005 8.92665C4.01517 9.02793 4.14315 9.08317 4.28941 9.08317Z"
+                            fill="#7B8E98" />
+                    </svg>
+                    Назад</a> <br>
+                Каталог
+            </h2>
+            <div class="banner">
+                <div class="banner__inner">
+                    <div class="banner__content">
+                        <h2 class="banner__title">
+                            Подарок за <br> первый заказ!
+                        </h2>
+                        <p class="banner__text">
+                            Легкое говяжье - пластины
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="catalog__items">
+        <div class="container">
+            <ul class="catalog__list">
+                <li class="list__item">
+                    <div class="card__title">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.9134 25.3333C20.5827 25.3333 19.5294 24.5093 19.2387 23.3333H12.7614C12.4721 24.5093 11.4174 25.3333 10.0867 25.3333C8.5694 25.3333 7.3334 24.056 7.3334 22.4853C7.3334 21.812 7.56274 21.172 7.96674 20.6667C7.56274 20.1613 7.3334 19.5213 7.3334 18.848C7.3334 17.2773 8.5694 16 10.0867 16C11.4174 16 12.4707 16.824 12.7614 18H19.2374C19.5281 16.824 20.5814 16 21.9121 16C23.4307 16 24.6654 17.2773 24.6654 18.848C24.6654 19.5213 24.4361 20.1613 24.0321 20.6667C24.4361 21.172 24.6654 21.812 24.6654 22.4853C24.6667 24.056 23.4307 25.3333 21.9134 25.3333ZM12.1747 22H19.8254C20.1934 22 20.4921 22.2987 20.4921 22.6667C20.4921 23.5827 21.2294 24 21.9121 24C22.6961 24 23.3321 23.32 23.3321 22.4853C23.3321 21.9707 23.0894 21.496 22.6854 21.2133C22.5067 21.0893 22.4001 20.884 22.4001 20.6667C22.4001 20.4493 22.5067 20.244 22.6854 20.12C23.0907 19.8387 23.3321 19.3627 23.3321 18.848C23.3334 18.0133 22.6961 17.3333 21.9134 17.3333C21.2294 17.3333 20.4934 17.7507 20.4934 18.6667C20.4934 19.0347 20.1947 19.3333 19.8267 19.3333H12.1747C11.8067 19.3333 11.5081 19.0347 11.5081 18.6667C11.5081 17.7507 10.7707 17.3333 10.0881 17.3333C9.30407 17.3333 8.66674 18.0133 8.66674 18.848C8.66674 19.3627 8.9094 19.8373 9.3134 20.12C9.49207 20.244 9.59874 20.4493 9.59874 20.6667C9.59874 20.884 9.49207 21.0893 9.3134 21.2133C8.9094 21.496 8.66674 21.9707 8.66674 22.4853C8.66674 23.32 9.30407 24 10.0867 24C10.7707 24 11.5067 23.5827 11.5067 22.6667C11.5081 22.2987 11.8054 22 12.1747 22Z"
+                                fill="#7B8E98" />
+                            <path
+                                d="M27.3333 32H4.6666C3.56393 32 2.6666 31.1027 2.6666 30V15.3333C2.6666 15.2747 2.6746 15.2147 2.6906 15.1587L6.42126 1.47333C6.65993 0.605333 7.45326 0 8.35193 0H23.6493C24.5479 0 25.3413 0.605333 25.5786 1.47333L29.3106 15.1587C29.3253 15.2147 29.3333 15.2747 29.3333 15.3333V30C29.3333 31.1027 28.4359 32 27.3333 32ZM3.99993 15.4227V30C3.99993 30.368 4.29993 30.6667 4.6666 30.6667H27.3333C27.6999 30.6667 27.9999 30.368 27.9999 30V15.4227L24.2919 1.824C24.2119 1.536 23.9479 1.33333 23.6479 1.33333H8.35193C8.05193 1.33333 7.78793 1.536 7.70793 1.82533L3.99993 15.4227Z"
+                                fill="#7B8E98" />
+                            <path
+                                d="M20.0001 7.99984H12.0001C10.5294 7.99984 9.3334 6.80384 9.3334 5.33317C9.3334 3.8625 10.5294 2.6665 12.0001 2.6665H20.0001C21.4707 2.6665 22.6667 3.8625 22.6667 5.33317C22.6667 6.80384 21.4707 7.99984 20.0001 7.99984ZM12.0001 3.99984C11.2641 3.99984 10.6667 4.5985 10.6667 5.33317C10.6667 6.06784 11.2641 6.6665 12.0001 6.6665H20.0001C20.7361 6.6665 21.3334 6.06784 21.3334 5.33317C21.3334 4.5985 20.7361 3.99984 20.0001 3.99984H12.0001Z"
+                                fill="#7B8E98" />
+                        </svg>
+                        <h2 class="card__title-text"> Наборы </h2>
+                    </div>
+                    <a href="#" class="card__link">Погрызушка</a>
+                    <a href="#" class="card__link">Дрессировка</a>
+                    <a href="#" class="card__link">На пробу</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg goodies"></div>
+                        Лакомства
+                    </h2>
+                    <a href="#" class="card__link">Желудочки для собак</a>
+                    <a href="#" class="card__link">Калтык для собак</a>
+                    <a href="#" class="card__link">Лакомство для собак - копыто</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <div class="card__title">
+                        <div class="cardImgSvg horns"></div>
+                        <h2 class="card__title-text"> Pога </h2>
+                    </div>
+                    <a href="#" class="card__link">Рога козьи</a>
+                    <a href="#" class="card__link">Рога оленя</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg oils"></div>
+                        Масла
+                    </h2>
+                    <a href="#" class="card__link">Сельдевое масло</a>
+                    <a href="#" class="card__link">Лососевое масло</a>
+                    <a href="#" class="card__link">Анчоусовое масло</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg cow"></div>
+                        Говядина
+                    </h2>
+                    <a href="#" class="card__link">Лопаточный хрящ говяжий</a>
+                    <a href="#" class="card__link">Трахеи говяжьи</a>
+                    <a href="#" class="card__link">Говяжье легкое</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg pig"></div>
+                        Свинина
+                    </h2>
+                    <a href="#" class="card__link">Пятачки свиные</a>
+                    <a href="#" class="card__link">Свиные уши</a>
+                    <a href="#" class="card__link">Ножка свиная</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg horse"></div>
+                        Конина
+                    </h2>
+                    <a href="#" class="card__link">Мясо конское сушено-вяленое</a>
+                    <a href="#" class="card__link">Жилы конские</a>
+                    <a href="#" class="card__link">Конская печень</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg sheep"></div>
+                        Баранина
+                    </h2>
+                    <a href="#" class="card__link">Бараньи ножки для собак</a>
+                    <a href="#" class="card__link">Трахея баранья</a>
+                    <a href="#" class="card__link">Корень бараний</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg deer"></div>
+                        Оленина
+                    </h2>
+                    <a href="#" class="card__link">Рога оленя для собак</a>
+                    <a href="#" class="card__link">Легкое оленье</a>
+                    <a href="#" class="card__link">Жилы оленя</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg goat"></div>
+                        Козлятина
+                    </h2>
+                    <a href="#" class="card__link">Рога козьи</a>
+                    <a href="#" class="card__link">Ножки козьи</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg rabbit"></div>
+                        Крольчатина
+                    </h2>
+                    <a href="#" class="card__link">Уши кролика</a>
+                    <a href="#" class="card__link">Мясные шайбочки из кролика</a>
+                    <a href="#" class="card__link">Джерки кролика</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_8384_15906)">
+                                <path
+                                    d="M13.1626 14.576C13.1626 14.0581 12.7427 13.6382 12.2248 13.6382C11.7069 13.6382 11.287 14.0581 11.287 14.576C11.287 15.0939 11.7069 15.5138 12.2248 15.5138C12.7427 15.5138 13.1626 15.0939 13.1626 14.576Z"
+                                    fill="#7B8E98" />
+                                <path
+                                    d="M20.7111 14.576C20.7111 14.0581 20.2912 13.6382 19.7733 13.6382C19.2554 13.6382 18.8355 14.0581 18.8355 14.576C18.8355 15.0939 19.2554 15.5138 19.7733 15.5138C20.2912 15.5138 20.7111 15.0939 20.7111 14.576Z"
+                                    fill="#7B8E98" />
+                                <path
+                                    d="M19.5329 18.7506L17.13 21.4918L17.0406 21.5939L17.1332 21.6931L19.3362 24.0523L19.3362 24.0523L19.3391 24.0553C20.3051 25.034 20.3011 26.6165 19.3272 27.5905L19.3272 27.5905L19.3252 27.5925C18.4965 28.4534 17.0422 28.5668 16.0898 27.8545L16 27.7873L15.9101 27.8545C14.9578 28.5668 13.5033 28.4534 12.6748 27.5925L12.6748 27.5925L12.6728 27.5905C11.6988 26.6165 11.6949 25.0339 12.6609 24.0551L12.661 24.0551L12.6638 24.0521L14.8675 21.6939L14.9602 21.5947L14.8707 21.4926L12.4672 18.7506L16 16.0492L19.5329 18.7506ZM17.1437 19.1071L17.2478 18.9866L17.1213 18.8898L16.0911 18.1021L16 18.0325L15.9089 18.1021L14.8788 18.8898L14.7522 18.9866L14.8564 19.1071L15.8865 20.2988L16 20.43L16.1135 20.2988L17.1437 19.1071ZM15.8911 22.906L13.7849 25.1592C13.4234 25.5227 13.4237 26.112 13.7858 26.4753C14.136 26.8389 14.7567 26.8389 15.107 26.4753L16 25.5822L16.8931 26.4753C17.2434 26.839 17.864 26.8389 18.2143 26.4752C18.5766 26.1117 18.5766 25.5218 18.2142 25.1583C18.2139 25.158 18.2136 25.1576 18.2133 25.1573L18.1946 25.1379L18.1929 25.1361L16.1103 22.9061L16.0008 22.7888L15.8911 22.906ZM26.5384 26.5456L26.5392 26.5467C28.0521 28.7702 26.3932 31.8726 23.7007 31.8499H23.6995L8.30053 31.8499L8.29925 31.8499C5.6077 31.8728 3.94754 28.7706 5.46096 26.5467L5.46175 26.5455C6.4287 25.095 6.93985 23.4067 6.93985 21.6636V14.1296C6.93985 11.3357 8.21106 8.8329 10.2063 7.16923L10.3028 7.08877L10.2405 6.97967C9.08281 4.95134 10.4206 2.31275 12.7005 2.00919L12.7732 1.99951L12.8102 1.93623C14.2028 -0.445024 17.7967 -0.445795 19.1899 1.93623L19.2269 1.99952L19.2996 2.00919C21.5788 2.31251 22.9176 4.95099 21.7596 6.97966L21.6973 7.08877L21.7938 7.16923C23.789 8.8329 25.0602 11.3357 25.0602 14.1296V21.6636C25.0602 23.4067 25.5714 25.095 26.5384 26.5456ZM13.2295 3.55009L13.2281 3.55006L11.5433 5.34761H11.3933C11.3933 5.34767 11.3933 5.34773 11.3933 5.3478C11.3933 5.59636 11.4432 5.83681 11.5385 6.05823L11.6044 6.21119L11.7496 6.12976C14.2472 4.72965 17.7529 4.72959 20.2504 6.12976L20.3935 6.20998L20.4607 6.06029C20.9856 4.88956 20.0589 3.50152 18.7702 3.55011C18.77 3.55011 18.7699 3.55012 18.7697 3.55013L18.2013 3.56837L17.9953 3.05995C17.9953 3.05984 17.9953 3.05973 17.9952 3.05962C17.2831 1.27582 14.7174 1.27505 14.0049 3.05961C14.0048 3.05972 14.0048 3.05983 14.0047 3.05994L13.7987 3.56837L13.2295 3.55009ZM23.4847 14.1296H23.4848L23.4846 14.1235C23.0763 4.20689 8.92754 4.19836 8.51551 14.1234L8.51538 14.1234V14.1296V21.6636C8.51538 23.7187 7.91299 25.7086 6.77311 27.4188C5.95694 28.6189 6.84905 30.2861 8.3011 30.2744H23.699C25.1506 30.2862 26.0432 28.6192 25.227 27.4188C24.0871 25.7086 23.4847 23.7186 23.4847 21.6636V14.1296Z"
+                                    fill="#7B8E98" stroke="white" stroke-width="0.3" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_8384_15906">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Курятина
+                    </h2>
+                    <a href="#" class="card__link">Желудочки куриные</a>
+                    <a href="#" class="card__link">Ломтики куриные</a>
+                    <a href="#" class="card__link">Куриные лапки</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg duck"></div>
+                        Утятина
+                    </h2>
+                    <a href="#" class="card__link">Головы утиные</a>
+                    <a href="#" class="card__link">Шейки утиные сушеные</a>
+                    <a href="#" class="card__link">Лапки утиные</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg goose"></div>
+                        Гусятина
+                    </h2>
+                    <a href="#" class="card__link">Гусиные желудки</a>
+                    <a href="#" class="card__link">Гусиные лапки</a>
+                    <a href="#" class="card__link">Гусиное сердце</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.3945 15.3207V15.3569L25.4111 15.3891C25.8761 16.2959 26.1208 17.3085 26.1208 18.3333C26.1208 20.1437 25.3714 21.782 24.1662 22.9555L24.1208 22.9997V23.063V28.3958C24.1208 30.3003 22.5712 31.85 20.6667 31.85C18.7622 31.85 17.2125 30.3003 17.2125 28.3958V28.2459L17.0626 28.2458L16.0892 28.2453C14.9115 28.2447 13.8555 27.5197 13.4317 26.421L12.8386 24.8835L12.8016 24.7875H12.6987H12.3333C8.77462 24.7875 5.87922 21.892 5.87922 18.3333C5.87922 17.3085 6.12401 16.2959 6.589 15.3892L6.60553 15.357V15.3208V9.63662C6.60553 8.79085 6.97561 7.98743 7.61839 7.43775L7.66188 7.40057L7.66955 7.34387C7.92878 5.42843 8.84695 3.66564 10.2814 2.34569C11.8201 0.929749 13.8196 0.15 15.9122 0.15C20.0318 0.15 23.5009 3.14315 24.1297 7.1712L24.1382 7.22582L24.1802 7.26185C24.951 7.924 25.3945 8.88961 25.3945 9.90582V15.3207ZM18.7983 25.7915L18.7875 25.8183V25.8472V28.3958C18.7875 29.4322 19.6304 30.275 20.6667 30.275C21.703 30.275 22.5458 29.4322 22.5458 28.3958V20.6666C22.5458 18.8527 21.0703 17.3773 19.2565 17.3773H18.9375H18.7875V17.5273V18.1334V18.1921L18.8273 18.2352L19.6958 19.1761C20.4411 19.9835 20.6559 21.1474 20.2478 22.1676L18.7983 25.7915ZM18.315 15.738L18.3598 15.8023H18.438H19.2565C21.6301 15.8023 23.6116 17.5122 24.0357 19.7651L24.3263 19.7819C24.469 19.3239 24.5458 18.8373 24.5458 18.3333C24.5458 17.5388 24.3587 16.8865 24.1713 16.4325C24.0776 16.2054 23.9837 16.0274 23.9126 15.9055C23.8771 15.8445 23.8472 15.7974 23.8259 15.7652C23.8237 15.7618 23.8216 15.7586 23.8195 15.7556V10.632C23.8195 9.6339 23.3925 8.68457 22.648 8.0227L22.6136 7.71373C22.2337 4.29952 19.3524 1.725 15.9122 1.725C14.2161 1.725 12.5949 2.35706 11.3478 3.50468L11.4493 3.61506C10.237 4.73069 9.48959 6.24487 9.34497 7.87869L9.19555 7.86546L9.19555 7.86546L9.16712 8.18652C8.54018 8.74582 8.18053 9.54679 8.18053 10.3889V15.7565C8.17821 15.7601 8.17576 15.7639 8.17319 15.7679C8.15199 15.8008 8.12223 15.8488 8.08678 15.9109C8.0159 16.0351 7.92212 16.2157 7.82854 16.4446C7.6415 16.9018 7.45422 17.5541 7.45422 18.3333C7.45422 20.8878 9.42737 22.9881 11.9293 23.1944L12.171 23.2144L12.0809 22.9892L11.7523 22.1677C11.3442 21.1474 11.5589 19.9835 12.3042 19.1761L13.1727 18.2352L13.2125 18.1921V18.1334V17.2333C13.2125 15.7564 14.4582 14.5458 16 14.5458C16.9644 14.5458 17.8146 15.0203 18.315 15.738ZM14.9027 25.8029C15.0822 26.2516 15.5167 26.5458 16 26.5458C16.4833 26.5458 16.9179 26.2516 17.0974 25.8029L18.346 22.6814C18.7971 21.5538 18.5597 20.2673 17.7359 19.3749L17.2125 18.8079V17.2333C17.2125 16.6062 16.6545 16.1208 16 16.1208C15.3456 16.1208 14.7875 16.6062 14.7875 17.2333V18.8079L14.2642 19.3749C13.4404 20.2673 13.203 21.5538 13.6541 22.6814L14.9027 25.8029Z"
+                                fill="#7B8E98" stroke="white" stroke-width="0.3" />
+                            <path
+                                d="M13.0128 12.0715C13.0128 11.5518 12.5914 11.1304 12.0716 11.1304C11.5518 11.1304 11.1304 11.5518 11.1304 12.0715C11.1304 12.5913 11.5518 13.0127 12.0716 13.0127C12.5914 13.0127 13.0128 12.5913 13.0128 12.0715Z"
+                                fill="#7B8E98" />
+                            <path
+                                d="M20.5422 12.0715C20.5422 11.5518 20.1208 11.1304 19.601 11.1304C19.0812 11.1304 18.6599 11.5518 18.6599 12.0715C18.6599 12.5913 19.0812 13.0127 19.601 13.0127C20.1208 13.0127 20.5422 12.5913 20.5422 12.0715Z"
+                                fill="#7B8E98" />
+                        </svg>
+                        Индюшатина
+                    </h2>
+                    <a href="#" class="card__link">Слипы из шеи индейки</a>
+                    <a href="#" class="card__link">Шейка индейки</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+
+                    <h2 class="card__title">
+                        <div class="cardImgSvg perepel"></div>
+                        Перепелка
+                    </h2>
+                    <a href="#" class="card__link">Головы перепелки</a>
+                    <a href="#" class="card__link">Лапки перепелки</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg fish"></div>
+                        Рыба
+                    </h2>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg yak"></div>
+                        Як
+                    </h2>
+                    <a href="#" class="card__link">Рога яка</a>
+                    <a href="#" class="card__link">Легкое яка</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg mouse"></div>
+                        Игрушки
+                    </h2>
+                    <a href="#" class="card__link">Для мелких пород</a>
+                    <a href="#" class="card__link">Для средних пород</a>
+                    <a href="#" class="card__link">Для крупных пород</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+                <li class="list__item">
+                    <h2 class="card__title">
+                        <div class="cardImgSvg accessories"></div>
+                        Аксессуары
+                    </h2>
+                    <a href="#" class="card__link">Перчатка расческа</a>
+                    <a href="#" class="card__all">Смотреть всё <div class="card__all-arrow"></div> </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="history">
+        <div class="container">
+            <h2 class="slider__title">Вы смотрели</h2>
+            <div class="history__slider">
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history1.png">
+                            <img src="images/history1.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <p class="price">590 ₽</p>
+                    <p class="card__number">1 шт</p>
+                    <a class="card__description">Игрушка-погрызушка для мелких пород</a>
+                </div>
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history2.png">
+                            <img src="images/history2.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <p class="price">790 ₽</p>
+                    <p class="card__number">1 шт</p>
+                    <a class="card__description">Игрушка-погрызушка для средних пород</a>
+                </div>
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history3.png">
+                            <img src="images/history3.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <p class="price">495 ₽</p>
+                    <p class="card__number">1 шт</p>
+                    <a class="card__description">Игрушка-погрызушка для крупных пород</a>
+                </div>
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history4.png">
+                            <img src="images/history4.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <span class="discount">-10%</span>
+                    <p class="old__price">550 ₽</p>
+                    <p class="price new__price">495 ₽</p>
+                    <p class="card__number">100 г</p>
+                    <a class="card__description">Бублик из бычьего корня</a>
+                </div>
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history5.png">
+                            <img src="images/history5.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <p class="price">495 ₽</p>
+                    <p class="card__number">14 шт</p>
+                    <a class="card__description">Печенья с яблоком (печень говяжья, сердце говяжье)</a>
+                </div>
+                <div class="slider-item">
+                    <a href="#" class="card__img">
+                        <picture class="card__pic history__pic">
+                            <source srcset="images/history5.png">
+                            <img src="images/history5.png" alt="">
+                        </picture>
+                    </a>
+                    <button href="#" class="card__favorites card__btn">
+                        <div class="favorite__icon favorite__alt"></div>
+                        <div class="favorite__icon favorites__full"></div>
+                    </button>
+                    <p class="price">495 ₽</p>
+                    <p class="card__number">14 шт</p>
+                    <a class="card__description">Печенья с яблоком (печень говяжья, сердце говяжье)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="images/logo.png" alt="">
+                    <p class="footer__logo-paragraph">© «Интернет-магазин натуральных лакомств для собак HorDog.ru»</p>
+                </div>
+                <ul class="footer__list1">
+                    <li class="footer__list-item">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Акции</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                </ul>
+                <ul class="footer__list2">
+                    <li class="footer__list-item">
+                        <a href="#">Оплата и доставка</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Часто спрашивают</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Обратная связь</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="ligature">
+                    <p class="title__ligature">Мы всегда на связи</p>
+                    <a href="tel:+89177172179" class="ligature__phone">8 (917) 717-21-79</a> <br>
+                    <a href="mail:hordog.ru@gmail.com" class="ligature__mail">hordog.ru@gmail.com</a>
+                    <ul class="ligature__social">
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM17.061 7.27896L5.49102 11.74C4.69802 12.05 4.71202 12.489 5.35502 12.693L8.31702 13.617L15.188 9.29096C15.507 9.07896 15.803 9.19896 15.561 9.41196L10.001 14.435L9.78802 17.488C10.098 17.488 10.233 17.353 10.393 17.193L11.84 15.799L14.84 18.01C15.387 18.32 15.778 18.16 15.924 17.502L17.894 8.22096L17.893 8.22196C18.067 7.40996 17.598 7.08496 17.061 7.27896Z"
+                                            fill="#1A1A1A" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.997 0H12.003C18.6195 0 24 5.3835 24 12C24 18.6165 18.6195 24 12.003 24C9.5625 24 7.299 23.274 5.4015 22.017L0.789 23.4915L2.2845 19.0335C0.846 17.058 0 14.625 0 12C0 5.382 5.3805 0 11.997 0ZM16.6298 18.6393C17.5463 18.4413 18.6953 17.7633 18.9848 16.9458C19.2743 16.1268 19.2743 15.4293 19.1903 15.2808C19.1225 15.1629 18.9621 15.0857 18.7227 14.9704C18.6604 14.9404 18.5927 14.9078 18.5198 14.8713C18.1673 14.6958 16.4528 13.8483 16.1288 13.7358C15.8108 13.6158 15.5078 13.6578 15.2678 13.9968C15.2222 14.0607 15.1767 14.1247 15.1314 14.1884C14.8418 14.5956 14.5625 14.9884 14.3303 15.2388C14.1188 15.4638 13.7738 15.4923 13.4843 15.3723C13.4528 15.3591 13.4166 15.3445 13.3761 15.3281C12.9177 15.143 11.901 14.7324 10.6703 13.6368C9.63234 12.7128 8.92734 11.5623 8.72334 11.2173C8.52305 10.8712 8.69582 10.6682 8.85549 10.4807C8.85845 10.4772 8.8614 10.4737 8.86434 10.4703C8.96729 10.3429 9.06719 10.2368 9.16759 10.1302C9.23981 10.0536 9.31229 9.97662 9.38634 9.89127C9.39734 9.87859 9.40804 9.86629 9.41846 9.85432C9.5757 9.67352 9.66933 9.56586 9.77484 9.34077C9.89484 9.10827 9.80934 8.86827 9.72384 8.69127C9.66502 8.56731 9.30163 7.68563 8.98967 6.92874C8.85618 6.60484 8.7321 6.3038 8.64534 6.09477C8.41284 5.53827 8.23584 5.51727 7.88334 5.50227C7.87254 5.50173 7.86163 5.50118 7.85062 5.50062C7.73919 5.49498 7.61648 5.48877 7.48134 5.48877C7.02234 5.48877 6.54384 5.62377 6.25434 5.91927C6.24423 5.9296 6.23368 5.94033 6.22274 5.95146C5.85237 6.32812 5.02734 7.16719 5.02734 8.83977C5.02734 10.5156 6.2164 12.1374 6.43641 12.4375C6.44247 12.4458 6.4478 12.453 6.45234 12.4593C6.46558 12.4767 6.49053 12.5128 6.52685 12.5654C6.97607 13.2159 9.16409 16.3845 12.4268 17.7363C15.1838 18.8793 16.0028 18.7728 16.6298 18.6393Z"
+                                            fill="#1A1A1A" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <g clip-path="url(#clip0_7576_2457)">
+                                            <path
+                                                d="M23.1551 13.893C23.8711 7.86602 22.8111 4.06102 20.8991 2.34002L20.9001 2.33902C17.8141 -0.599975 7.39208 -1.03498 3.70008 2.47102C2.04208 4.18602 1.45808 6.70302 1.39408 9.81903C1.33008 12.936 1.25408 18.775 6.69508 20.359H6.70008L6.69508 22.778C6.69508 22.778 6.65808 23.758 7.28408 23.955C8.00008 24.187 8.32408 23.732 10.5511 21.072C14.2751 21.395 17.1351 20.655 17.4601 20.547C18.2121 20.295 22.4671 19.732 23.1551 13.893ZM10.9181 19.37C10.9181 19.37 8.56108 22.309 7.82808 23.072C7.58808 23.32 7.32508 23.297 7.32908 22.805C7.32908 22.482 7.34708 18.789 7.34708 18.789C2.73408 17.467 3.00608 12.495 3.05608 9.89402C3.10608 7.29202 3.58208 5.16102 4.98608 3.72602C8.22508 0.689025 17.3621 1.36802 19.6901 3.55602C22.5361 6.07902 21.5231 13.207 21.5291 13.45C20.9441 18.324 17.4961 18.633 16.8621 18.844C16.5911 18.934 14.0761 19.581 10.9181 19.37Z"
+                                                fill="#1A1A1A" />
+                                            <path
+                                                d="M12.2214 4.29639C11.8364 4.29639 11.8364 4.89639 12.2214 4.90139C15.2084 4.92439 17.6684 7.00639 17.6954 10.8254C17.6954 11.2284 18.2854 11.2234 18.2804 10.8204H18.2794C18.2474 6.70539 15.5614 4.31939 12.2214 4.29639Z"
+                                                fill="#1A1A1A" />
+                                            <path
+                                                d="M16.1519 10.193C16.1429 10.591 16.7319 10.61 16.7369 10.207C16.7859 7.93804 15.3869 6.06904 12.7579 5.87204C12.3729 5.84404 12.3329 6.44904 12.7169 6.47704C14.9969 6.65004 16.1979 8.20604 16.1519 10.193Z"
+                                                fill="#1A1A1A" />
+                                            <path
+                                                d="M15.5202 12.7746C15.0262 12.4886 14.5232 12.6666 14.3152 12.9476L13.8802 13.5106C13.6592 13.7966 13.2462 13.7586 13.2462 13.7586C10.2322 12.9616 9.42624 9.80759 9.42624 9.80759C9.42624 9.80759 9.38924 9.38059 9.66524 9.15159L10.2092 8.70159C10.4812 8.48559 10.6532 7.96559 10.3762 7.45459C9.63624 6.11759 9.13924 5.65659 8.88624 5.30259C8.62024 4.96959 8.22024 4.89459 7.80424 5.11959H7.79524C6.93024 5.62559 5.98324 6.57259 6.28624 7.54759C6.80324 8.57559 7.75324 11.8526 10.7812 14.3286C12.2042 15.4996 14.4562 16.6996 15.4122 16.9766L15.4212 16.9906C16.3632 17.3046 17.2792 16.3206 17.7682 15.4296V15.4226C17.9852 14.9916 17.9132 14.5836 17.5962 14.3166C17.0342 13.7686 16.1862 13.1636 15.5202 12.7746Z"
+                                                fill="#1A1A1A" />
+                                            <path
+                                                d="M13.1684 8.10417C14.1294 8.16017 14.5954 8.66217 14.6454 9.69317C14.6634 10.0962 15.2484 10.0682 15.2304 9.66517C15.1664 8.31917 14.4644 7.56917 13.2004 7.49917C12.8154 7.47617 12.7794 8.08117 13.1684 8.10417Z"
+                                                fill="#1A1A1A" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_7576_2457">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <path
+                                            d="M9.66498 12C9.66498 10.7109 10.7101 9.66599 11.9993 9.66599C13.2885 9.66599 14.3336 10.7109 14.3336 12C14.3336 13.289 13.2885 14.3339 11.9993 14.3339C10.7101 14.3339 9.66498 13.289 9.66498 12Z"
+                                            fill="#1A1A1A" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.17144 6.30202C9.9098 6.2684 10.131 6.26118 12.0004 6.26118L11.9993 6.26229L12.6776 6.26274C13.9386 6.26475 14.1906 6.2741 14.8283 6.30313C15.5108 6.33425 15.8815 6.44817 16.1283 6.54403C16.4327 6.65611 16.7081 6.8351 16.9342 7.06779C17.1669 7.2938 17.3459 7.56916 17.458 7.87356C17.5539 8.12029 17.6678 8.49095 17.6989 9.17336C17.728 9.81094 17.7373 10.0629 17.7393 11.3237V12.6801C17.7373 13.941 17.728 14.1929 17.6989 14.8305C17.6678 15.5129 17.5539 15.8835 17.458 16.1303C17.2222 16.7405 16.7397 17.2229 16.1294 17.4587C15.8826 17.5545 15.5119 17.6685 14.8294 17.6996C14.1584 17.7301 13.9143 17.7389 12.471 17.7402H11.5298C10.0865 17.7389 9.84243 17.7301 9.17144 17.6996C8.48893 17.6685 8.11821 17.5545 7.87144 17.4587C7.567 17.3466 7.29159 17.1676 7.06555 16.9349C6.83283 16.7089 6.65382 16.4335 6.54172 16.1291C6.44584 15.8824 6.33191 15.5118 6.30078 14.8293C6.26868 14.1246 6.26064 13.8911 6.25998 12.2457L6.25993 12.0008C6.25993 10.1317 6.26716 9.9105 6.30078 9.17225C6.33191 8.48984 6.44584 8.11918 6.54172 7.87245C6.65382 7.56805 6.83283 7.29269 7.06555 7.06667C7.29159 6.83399 7.567 6.655 7.87144 6.54292C8.11821 6.44706 8.48893 6.33314 9.17144 6.30202ZM14.5415 9.45905C13.8673 8.78497 12.9528 8.40634 11.9993 8.40648C10.5452 8.40648 9.23425 9.28231 8.6778 10.6255C8.12136 11.9688 8.429 13.5149 9.45726 14.5429C10.4855 15.571 12.0319 15.8784 13.3753 15.322C14.7187 14.7655 15.5945 13.4547 15.5944 12.0008C15.5945 11.0475 15.2157 10.1331 14.5415 9.45905ZM16.5765 8.26422C16.5765 7.80033 16.2004 7.42427 15.7364 7.42427C15.2725 7.42427 14.8964 7.80033 14.8964 8.26422C14.8964 8.72812 15.2725 9.10417 15.7364 9.10417C16.2004 9.10417 16.5765 8.72812 16.5765 8.26422Z"
+                                            fill="#1A1A1A" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM14.8858 5.04334C14.1408 5.00945 13.9007 5.00111 12.0004 5L11.1152 5.00091C9.99554 5.00379 9.72485 5.01427 9.11391 5.04223C8.36721 5.07641 7.85894 5.19561 7.41347 5.36871C6.94638 5.54444 6.52323 5.81989 6.17351 6.17588C5.81797 6.52568 5.54296 6.94876 5.36761 7.41566C5.19309 7.86106 5.07471 8.36981 5.04081 9.11473C5.00998 9.79194 5.00029 10.0519 4.99879 11.5219L4.99878 12.4797C5.00025 13.9494 5.00973 14.2081 5.04081 14.8869C5.07499 15.6335 5.19309 16.1405 5.36622 16.5859C5.54198 17.053 5.81747 17.476 6.17351 17.8257C6.52329 18.1817 6.94642 18.4572 7.41347 18.6332C7.85811 18.806 8.36777 18.9243 9.1128 18.9585C9.75624 18.988 10.0231 18.9979 11.3086 19L12.4783 19.0003C13.9482 18.9988 14.207 18.9893 14.8858 18.9585C15.6325 18.9246 16.1397 18.806 16.5851 18.6332C17.5255 18.2694 18.2689 17.5261 18.6327 16.5859C18.8055 16.1414 18.9239 15.6318 18.9581 14.8869C18.9922 14.1419 19 13.9019 19 12.0008C19 10.0997 18.992 9.86132 18.9581 9.11473C18.9242 8.36814 18.8055 7.86106 18.6327 7.41566C18.4567 6.94867 18.1811 6.52561 17.8251 6.17588C17.4752 5.82039 17.0521 5.54542 16.5851 5.3701C16.1397 5.19561 15.6308 5.07724 14.8858 5.04334Z"
+                                            fill="#1A1A1A" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM18.2109 8.01423C18.6706 8.01423 18.7743 8.24199 18.6706 8.55516C18.5086 9.27288 17.1635 11.1767 16.7469 11.7664C16.6677 11.8785 16.6221 11.9431 16.6244 11.9431C16.4613 12.1993 16.402 12.3132 16.6244 12.5979C16.7048 12.7031 16.8753 12.8637 17.0701 13.0473C17.2705 13.2361 17.4967 13.4492 17.6771 13.6512C18.3295 14.363 18.8337 14.9609 18.9671 15.3737C19.0857 15.7865 18.8781 16 18.4333 16H16.9061C16.5014 16 16.2928 15.7769 15.8482 15.3013C15.6576 15.0974 15.4235 14.8471 15.1121 14.548C14.2076 13.7082 13.8073 13.5943 13.5849 13.5943C13.2735 13.5943 13.1845 13.6655 13.1845 14.0925V15.4164C13.1845 15.7722 13.0659 15.9858 12.0873 15.9858C10.4712 15.9858 8.67711 15.0463 7.41681 13.2954C5.51895 10.7331 5 8.79715 5 8.41281C5 8.19929 5.07414 8 5.51895 8H7.06096C7.44647 8 7.59474 8.15658 7.74301 8.5694C8.49919 10.6619 9.75949 12.4982 10.2784 12.4982C10.4712 12.4982 10.5601 12.4128 10.5601 11.9431V9.77936C10.5235 9.16435 10.3005 8.89639 10.1352 8.69769C10.0326 8.57446 9.95224 8.47786 9.95224 8.34164C9.95224 8.17082 10.1005 8 10.3377 8H12.7397C13.0659 8 13.1845 8.17082 13.1845 8.54093V11.4591C13.1845 11.7722 13.318 11.8861 13.4218 11.8861C13.6145 11.8861 13.7776 11.7722 14.1335 11.4306C15.2307 10.2491 16.0165 8.42705 16.0165 8.42705C16.1203 8.21352 16.2982 8.01423 16.6837 8.01423H18.2109Z"
+                                            fill="#1A1A1A" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="footer__logo-paragraph min__paragraph">© «Интернет-магазин натуральных лакомств для собак HorDog.ru»</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
